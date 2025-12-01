@@ -1,0 +1,21 @@
+.{
+    .name = .callstack_bug,
+    .version = "1.0.0",
+    .fingerprint = 0x6b7b55052c00d309,
+    .minimum_zig_version = "0.15.1",
+    .paths = .{
+        "callstack_bug.zig",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .zig_sdl = .{
+            .url = "https://github.com/swan-www/zig_sdl3/archive/refs/tags/3.2.22_z0.15.1.zip",
+            .hash = "zig_sdl3-3.2.22-Sz-aXlZkAABzt4Nm8_kMlKlA_Du8NqXoRXZalWW8BgZZ",
+        },
+        .zimgui = .{
+            .url = "https://github.com/swan-www/zig_cimgui/archive/refs/tags/1.92.1.2_z0.15.1.zip",
+            .hash = "zig_cimgui-1.92.1-tGUfE5MmAABOAwv21YZqY2PGGQHdXD4bsmNG54gvsjLW",
+        },
+    },
+}
